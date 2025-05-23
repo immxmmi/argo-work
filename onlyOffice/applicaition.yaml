@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'file://.'
+    repoURL: 'https://github.com/immxmmi/argo-work'
     targetRevision: HEAD
-    path: ./onlyOffice/onlyoffice-helm
+    path: onlyOffice/onlyoffice-helm
     helm:
       valueFiles:
         - values.yaml
